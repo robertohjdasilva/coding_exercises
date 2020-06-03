@@ -2,6 +2,12 @@
 
 using namespace std;
 
+// Example 1
+// N = 5 
+// K = 3
+// arr = [2, 1, 7, 4, 2]
+// output = 14
+
 int maxCandies(vector <int> arr, int k) {
   int size = (int) arr.size();
   if (size == 0) return 0;

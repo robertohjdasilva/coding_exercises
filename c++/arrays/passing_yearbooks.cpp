@@ -2,6 +2,16 @@
 
 using namespace std;
 
+// Example 1
+// n = 2
+// arr = [2, 1]
+// output = [2, 2]
+//
+// Example 2
+// n = 2
+// arr = [1, 2]
+// output = [1, 1]
+
 vector <int> findSignatureCounts(vector <int> arr) {
     int size = (int) arr.size ();
     if (size == 0) return {};
