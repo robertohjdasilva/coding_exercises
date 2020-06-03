@@ -8,6 +8,8 @@ using namespace std;
 // arr = [2, 1, 7, 4, 2]
 // output = 14
 
+// Complexity
+// Time = O(n log n), Space = O(n)
 int maxCandies(vector <int> arr, int k) {
   int size = (int) arr.size();
   if (size == 0) return 0;

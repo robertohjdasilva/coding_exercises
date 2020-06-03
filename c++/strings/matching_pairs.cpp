@@ -12,7 +12,8 @@ using namespace std;
 // t = "mno"
 // output = 1
 
-
+// Complexity
+// Time = O(n), Space = O(1)
 int matchingPairs(string s, string t) {
   int len = (int) s.length();
   if (len < 2 || len != (int) t.length()) {

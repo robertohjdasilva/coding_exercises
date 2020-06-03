@@ -12,6 +12,8 @@ using namespace std;
 // arr = [1, 2]
 // output = [1, 1]
 
+// Complexity
+// Time = O(n ^ 2), Space = O(1)
 vector <int> findSignatureCounts(vector <int> arr) {
     int size = (int) arr.size ();
     if (size == 0) return {};
